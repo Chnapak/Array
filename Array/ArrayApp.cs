@@ -1,27 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Array
+﻿namespace Array
 {
     public class ArrayApp
     {
         public void Run()
         {
-            int Sum = 0;
+            // This program is focused on printing out arrays.
 
+            // Translation: "Amount of elements: "
             Console.Write("Počet prvků: ");
-            int desiredLenght = SafelyConvertToInt(Console.ReadLine());
+            int desiredAmount = SafelyConvertToInt(Console.ReadLine());
 
-            int[] values = new int[desiredLenght];
+            int[] values = new int[desiredAmount];
 
+            // User inputs the integer vavlues of each element.
             for (int i = 0; i < values.Length; i++)
             {
                 values[i] = SafelyConvertToInt(Console.ReadLine());
             }
 
+            // Printing the array in both ways.
+            Console.WriteLine("---------------------");
+            PrintArray(values);
+            Console.WriteLine("---------------------");
             PrintArrayReverse(values);
             
         }

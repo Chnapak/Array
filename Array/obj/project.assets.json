@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matej\\source\\repos\\Array\\Array\\Array.csproj",
+      "projectUniqueName": "C:\\Users\\matej\\source\\repos\\C#Practice\\Array\\Array\\Array.csproj",
       "projectName": "Array",
-      "projectPath": "C:\\Users\\matej\\source\\repos\\Array\\Array\\Array.csproj",
+      "projectPath": "C:\\Users\\matej\\source\\repos\\C#Practice\\Array\\Array\\Array.csproj",
       "packagesPath": "C:\\Users\\matej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matej\\source\\repos\\Array\\Array\\obj\\",
+      "outputPath": "C:\\Users\\matej\\source\\repos\\C#Practice\\Array\\Array\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matej\\AppData\\Roaming\\NuGet\\NuGet.Config",
